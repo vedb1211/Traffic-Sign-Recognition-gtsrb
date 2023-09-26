@@ -18,17 +18,6 @@ Before running the code, you need to have the following prerequisites installed:
 - Numpy
 - Jupyter Notebook (optional)
 
-### Installation
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/vedb1211/traffic-sign-recognition-gtsrb.git
-   cd traffic-sign-recognition-gtsrb
-   pip install -r requirements.txt
-
-
-
 # Download the dataset from Kaggle
 !kaggle datasets download -d meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
 
@@ -59,6 +48,9 @@ We train each model on the training data and evaluate its performance on the val
 
 Model Comparison:
 We compare the performance of different models using bar graphs. Two separate graphs are generated, one for loss and the other for accuracy.
+
+![image](https://github.com/vedb1211/Traffic-Sign-Recognition-gtsrb/assets/106091820/de333af3-f998-4b67-b873-8e0ae64a67ac)
+
 
 # Conclusion
 In this project, we explored various machine learning models for traffic sign recognition. We organized the data, implemented data augmentation, trained multiple models, and compared their performance. The results provide insights into the effectiveness of different model architectures for this task.
