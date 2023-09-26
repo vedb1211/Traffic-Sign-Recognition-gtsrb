@@ -30,9 +30,6 @@ zip = zipfile.ZipFile('gtsrb-german-traffic-sign.zip', 'r')<br>
 zip.extractall()<br>
 zip.close()
 
-# Run this code to organize the test data
-python organize_test_data.py
-
 
 # Model Training
 Data Augmentation: 
